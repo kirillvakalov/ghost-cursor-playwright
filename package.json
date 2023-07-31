@@ -1,8 +1,8 @@
 {
-  "name": "ghost-cursor-playwright",
+  "name": "@kirillvakalov/ghost-cursor-playwright",
   "version": "2.0.4",
   "description": "Move your mouse like a human in playwright or generate realistic movements on any 2D plane",
-  "repository": "https://github.com/reaz1995/ghost-cursor-playwright",
+  "repository": "https://github.com/kirillvakalov/ghost-cursor-playwright",
   "main": "lib/cursor.js",
   "types": "lib/cursor.d.ts",
   "keywords": [
@@ -16,17 +16,19 @@
     "lib/**/*"
   ],
   "scripts": {
-    "postinstall": "pnpm run build",
+    "postinstall": "npm run build",
     "build": "tsc",
     "example": "tsc && node ./lib/example.js"
   },
   "dependencies": {
-    "bezier-js": "^4.1.1",
-    "playwright-core": "^1.19.2"
+    "bezier-js": "^4.1.1"
   },
   "devDependencies": {
     "@types/bezier-js": "^4.1.0",
     "@types/node": "^16.11.11",
     "typescript": "^4.5.2"
+  },
+  "peerDependencies": {
+    "playwright-core": "^1.36.2"
   }
 }

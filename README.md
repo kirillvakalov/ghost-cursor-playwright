@@ -1,4 +1,6 @@
 # ghost-cursor-playwright
+**Fork of https://github.com/reaz1995/ghost-cursor-playwright with `playwright-core` in `peerDependencies`.**
+
 
 Modification of actual ghost-cursor for puppeteer, with more functionality and rewrite to work well with playwright.
 Note! target elements rendered in the DOM will be scrolled vertically and horizontally to be visible in viewport
