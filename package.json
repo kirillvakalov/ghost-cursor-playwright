@@ -1,6 +1,6 @@
 {
   "name": "@kirillvakalov/ghost-cursor-playwright",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "Move your mouse like a human in playwright or generate realistic movements on any 2D plane",
   "repository": "https://github.com/kirillvakalov/ghost-cursor-playwright",
   "main": "lib/cursor.js",
